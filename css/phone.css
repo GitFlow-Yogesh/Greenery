@@ -1,0 +1,89 @@
+
+    @media (max-width:1100px){
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.navbar {
+    transition: all 0.7s ease-out;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.rnav {
+    padding-top: 0px;
+    /* flex-direction: row-reverse; */
+    width: 65%;
+    margin-bottom: 7px;
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 14px;
+}
+
+.line {
+    width: 33px;
+    background-color: red;
+    height: 5px;
+    margin: 5px 5px;
+}
+
+.ok {
+
+    width: 50%;
+    margin: 2px 12px;
+}
+
+.btnf {
+    margin: 0px 25px;
+    margin: auto;
+
+}
+
+.logo {
+    display: none;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+}
+
+.dig img {
+    width: 300px;
+}
+
+
+/* for hamburger button css start from here */
+.h-nav{
+    height: 50px;
+}
+.v-nav{
+    opacity: 0;
+}
+};
+
